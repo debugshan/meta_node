@@ -4,7 +4,7 @@ func main() {
 	return
 }
 
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 	m := make(map[int]int)
 	for _, num := range nums {
 		m[num]++
